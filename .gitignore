@@ -1,19 +1,39 @@
-__pycache__
-.mypy_cache
-.DS_Store
-anki.prof
-target
-/user.bazelrc
+# Python-related
+__pycache__/
+.mypy_cache/
 .dmypy.json
-/.idea/
-/.vscode
+venv/
+
+
+# macOS system files
+.DS_Store
+
+# Bazel
+/user.bazelrc
 /.bazel
 /windows.bazelrc
-/out
-node_modules
+
+# IntelliJ/VSCode configurations
+/.idea/
+/.vscode/
+
+# Build outputs
+/out/
+build/
+target/
 .n2_db
 .ninja_log
 .ninja_deps
-/extra
+
+# Node.js
+node_modules/
 yarn-error.log
 ts/.svelte-kit
+
+# Temporary files and logs
+*.log
+*.tmp
+anki.prof
+
+# Extra tools and folders
+/extra
